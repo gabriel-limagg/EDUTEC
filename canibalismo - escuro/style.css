@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body {
+    background-color: #1E1E1E;    
+}
+
+p, h1, h2, h3, li {
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    margin-left: 2rem;
+}
+
+.perfil {
+    display: flex;
+    position: absolute;
+    left: 80%;
+    top: 2%;
+}
+
+.noturno {
+    display: flex;
+    width: auto;
+    position: absolute;
+    left: 90%;
+    top: 3%;
+}
+
+.verde {
+    display: flex;
+    position: absolute;
+    width: 100% ;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: rgba(25, 107, 24, 0.9);
+}
+
+.dinamica {
+    display: flex;
+    position: absolute;
+    margin-left: 35rem; 
+    align-items: center;
+
+}
+   
+.titulo {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    left: 30%;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.e {
+    position: absolute;
+    width: auto;
+    height: 60px;
+    left: 10%;
+    top: 440px;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: flex;
+    position: absolute;
+    width: 1130px;
+    height: 201px;
+    left: 10%;
+    top: 523px;
+    margin-right: 5%;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+.cobra {
+    display: flex;
+    position: absolute;
+    width: 405px;
+    height: 300px;
+    left: 10%;
+    top: 831px;
+    background: url(formigueiro);
+    border-radius: 20px;
+}
+
+.louva {
+    display: flex;
+    position: absolute;
+    width: 419px;
+    height: 300px;
+    left: 58%;
+    top: 831px;
+    margin-right: 10%;
+}
+
+.caratitulo {
+    display: flex;
+    position: absolute;
+    margin-top: 600px;
+    left: 10%;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 15px;
+
+}
+
+.caracteristicas {
+    display: flex;
+    position: absolute;
+    margin-top: 650px;
+    height: 157px;
+    left: 10%;
+    margin-right: 5%;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.exemplos {
+    display: flex;
+    position: absolute;
+    margin-top: 900px;
+    left: 43%;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.aranha {
+    display: flex;
+    position: absolute;
+    left: 10%;
+    margin-top: 1000px;
+}
+
+.escorpiao {
+    display: flex;
+    position: absolute;
+    left: 40%;
+    margin-top: 1000px;
+}
+
+.legendaescorpiao {
+    left: 37%;
+    margin-top: 1000px;
+}
+
+.tubarao {
+    display: flex;
+    position: absolute;
+    left: 70%;
+    margin-top: 1000px;
+}
+
+.fundo1 {
+    display: flex;
+    position: absolute;
+    left: 79%;
+    margin-top: -450px;
+}
+
+.fundo3 {
+    display: flex;
+    position: absolute;
+    left: 3%;
+    margin-top: 500px;
+}
+
+.fundo4 {
+    display: flex;
+    position: absolute;
+    left: 29%;
+    margin-top:150px;
+}
+
+.fundo2 {
+    display: flex;
+    position: absolute;
+    left: 73%;
+    margin-top: 1100px;
+}
+
+.fundo5 {
+    display: flex;
+    position: absolute;
+    left: 1%;
+    margin-top: -460px;
+}

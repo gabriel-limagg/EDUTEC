@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+html{
+    font-size: 67.2%;
+}
+@media (min-width : 1366px) {
+
+body {
+    background-color: #1e1e1e;
+}
+
+h1, h2, h3, p, li {
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    top: 2rem; 
+}
+
+.perfil {
+    display: flex;
+    position: absolute;
+    left: 85%;
+    top: 2%;
+}
+
+.noturno {
+    display: flex;
+    position: absolute;
+    left: 94%;
+    top: 3%;
+}
+
+.verde {
+    display: flex;
+    position: absolute;
+    width: 100% ;
+    height: 12rem;
+    left: 0px;
+    top: 0px;
+    background: rgba(25, 107, 24, 0.9);
+}
+
+.dinamica {
+    display: flex;
+    position: absolute;
+    margin-left: 57rem; 
+    align-items: center;
+}
+   
+.titulo {
+    display: flex;
+    position: absolute;
+    height: 55rem;
+    left: 77rem;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-size: 4.5rem;
+    align-items: center;  
+    text-transform: uppercase;
+}
+.e {
+    position: absolute;
+    width: auto;
+    height: 6rem;
+    left: 14%;
+    top: 44rem;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: flex;
+    position: absolute;
+    width: 130rem;
+    height: 60rem;
+    left: 14%;
+    top: 52.3rem;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: justify;
+}
+
+.esponja {
+    display: flex;
+    position: absolute;
+    width: 40.5rem;
+    height: 30rem;
+    left: 14%;
+    top: 170rem;
+    background: url(formigueiro);
+    border-radius: 2rem;
+}
+
+.esponjaleg {
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 198rem;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.coral {
+    display: flex;
+    position: absolute;
+    width: 40.5rem;
+    height: 30rem;
+    left: 56%;
+    top: 170rem;
+}
+
+.coralleg {
+    display: flex;
+    position: absolute;
+    left: 68%;
+    top: 198rem;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.caratitulo {
+    display: flex;
+    position: absolute;
+    margin-top: 120rem;
+    left: 14%;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+.caracteristicas {
+    display: flex;
+    position: absolute;
+    margin-top: 130rem;
+    width: 132rem;
+    height: 30rem;
+    left: 14%;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: justify;
+}
+
+.exemplo {
+    display: flex;
+    position: absolute;
+    margin-top: 155rem;
+    left: 45%;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.aguaviva {
+    display: flex;
+    position: absolute;
+    margin-top: 80rem;
+    margin-left: 30%;
+}
+
+.aguavivaleg {
+    display: flex;
+    position: absolute;
+    left: 47%;
+    top: 115rem;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.fundo1 {
+    display: flex;
+    position: absolute;
+    left: 79%;
+    margin-top: 5%;
+    margin-right: 1rem;
+}
+
+.fundo2 {
+    display: flex;
+    position: absolute;
+    left: 73%;
+    margin-top: 180rem;
+}
+
+.fundo3 {
+    display: flex;
+    position: absolute;
+    left: 6%;
+    margin-top: 115rem;
+}
+
+.fundo4 {
+    display: flex;
+    position: absolute;
+    left: 36%;
+    margin-top:77rem;
+}
+
+.fundo5 {
+    display: flex;
+    position: absolute;
+    left: 1%;
+    margin-top: 9rem;
+}
+}

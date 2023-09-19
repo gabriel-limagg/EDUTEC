@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+html{
+    font-family: 'Arimo', sans-serif;
+}
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.retangulo{
+    background-color: #196B18;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    position: absolute;
+    width: 123px;
+    height: 75px;
+    left: 60px;
+    top: 40px;
+}
+
+.dinamica{
+    position: absolute;
+    width: 657px;
+    height: 150px;
+    left: 565px;
+    top: 2px;
+
+}
+
+.usuario{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1600px;
+    top: 28px;
+}
+
+
+.diaEnoite{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1750px;
+    top: 40px;
+}
+
+.retangulo2{
+    position: absolute;
+    width: 352px;
+    height: 822px;
+    top: 140px;
+    background: #D9D9D9;
+}
+
+
+
+.usuario2{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 31px;
+    top: 215px;
+    
+}
+
+.cadeado{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 33px;
+    top: 260px;
+}
+
+
+
+.Contas{
+    position: absolute;
+    width: 294px;
+    height: 32px;
+    left: 58px;
+    top: 207px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000
+}
+
+.login{
+    position: absolute;
+    width: 293px;
+    height: 32px;
+    left: 59px;
+    top: 253px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.sua_conta{
+    position: absolute;
+    width: 294px;
+    height: 32px;
+    left: 383px;
+    top: 160px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.Nome{
+    position: absolute;
+    width: 86px;
+    height: 41px;
+    left: 425px;
+    top: 195px;
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+
+
+}
+
+
+.inp1{
+    position: absolute;
+    width: 261px;
+    height: 41px;
+    left: 418px;
+    top: 235px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    
+}
+
+.B1{
+    position: absolute;
+    width: 124px;
+    height: 41px;
+    left: 1200px;
+    top: 238px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.Email{
+    position: absolute;
+    width: 279px;
+    height: 61px;
+    left: 430px;
+    top: 365px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.inp2{
+    
+    position: absolute;
+    width: 261px;
+    height: 41px;
+    left: 418px;
+    top: 410px; 
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.B2{
+    position: absolute;
+    width: 124px;
+    height: 41px;
+    left: 1200px;
+    top: 410px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    
+}
+
+.Email_img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 43px;
+    top: 890px;
+}
+
+.whats{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 85px;
+    top: 890px;
+}
+
+.tel{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 127px;
+    top: 890px;
+
+}
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Site com Imagem de Fundo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="retangulo-superior">
+    <img src="./imagens/dinamica.png" width="50%" height="100%" alt="DINAMICA" />
+  </div>
+
+  <div class="textos">
+    <div id="pergunta">
+      <div class="textosp">
+        <p>Um exemplo que não é de predatismo seria:</p>
+      </div>
+    </div>
+
+    <div class="resposta">
+      <input type="radio" id="respostaA" name="resposta" value="A) Leões e zebras.">
+      <label for="respostaA">A) Leões e zebras.</label>
+    </div>
+
+    <div class="resposta">
+      <input type="radio" id="respostaB" name="resposta" value="B) Tubarões e rêmoras.">
+      <label for="respostaB">B) Tubarões e rêmoras.</label>
+    </div>
+
+    <div class="resposta">
+      <input type="radio" id="respostaC" name="resposta" value="C) Tubarão e foca.">
+      <label for="respostaC">C) Tubarão e foca.</label>
+    </div>
+
+    <div class="resposta">
+      <input type="radio" id="respostaD" name="resposta" value="D) Leopardo e antílope.">
+      <label for="respostaD">D) Leopardo e antílope.</label>
+    </div>
+
+    <div class="resposta">
+      <input type="radio" id="respostaE" name="resposta" value="E) Sapos e moscas.">
+      <label for="respostaE">E) Sapos e moscas.</label>
+    </div>
+  </div>
+
+  <div class="img">
+    <img src="./imagens/acerto.svg" alt="">
+  </div>
+
+  <div class="img2">
+    <img src="./imagens/erro.svg" alt="">
+  </div>
+
+  <div class="progresso">
+    <div class="questao">
+      <h3>Progresso</h3>
+    </div>
+    <div class="acertos">
+      <label for="acertos"><h4>ACERTOS: <span id="contadorAcertos">0</span></h4></label>
+      <div class="erros">
+        <label for="erros"><h4>ERROS: <span id="contadorErros">0</span></h4></label>
+      </div>
+    </div>
+    <button id="enviarButton" class="botao-desabilitado" onclick="verificarRespostas()" disabled>ENVIAR</button>
+
+  </div>
+
+  <div class="retangulo_preto"></div>
+
+  <img class="menu" src="./imagens/menu.svg" alt="menu">
+  <img class="usuario" src="./imagens/usuario.svg" alt="usuario">
+  <img class="diaEnoite" src="./imagens/diaEnoite.svg" alt="diaEnoite">
+
+  <div class="pginadoresultadodoquiz-modo-claroerrado-container">
+    <div class="pginadoresultadodoquiz-modo-claroerrado-pginadoresultadodoquiz-modo-claroerrado">
+      <div class="pginadoresultadodoquiz-modo-claroerrado-homepageclaro">
+        
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="box2"></div>
+
+  <div class="progresso1">
+    <h3>PERGUNTA: 3 - 10</h3>
+  </div>
+
+  <div class="avancar">
+    <a href="../PERGUNTA 4/index.html">
+      <img src="./imagens/avançar.svg" alt="Avançar para a Página 2">
+    </a>
+  </div>
+
+  <div class="quiz2">
+    <h2>QUIZ</h2>
+  </div>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+    .quiz2 {
+      color: #FFFFFF;
+      position: absolute;
+      z-index: 2;
+      font-family: 'Paytone One', sans-serif;
+      margin-left: 450px;
+      margin-top: -750px;
+      font-size: 20px;
+    }
+
+    /* Adicione as classes para estilizar as respostas corretas e erradas */
+    .resposta.correct label {
+      background-color: green;
+      color: white;
+    }
+
+    .resposta.incorrect label {
+      background-color: red;
+      color: white;
+    }
+  </style>
+
+  
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

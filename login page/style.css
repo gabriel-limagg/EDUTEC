@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+#modoclaro {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    margin-top: 2%;
+    margin-left: 93%;
+    position: absolute;
+}
+
+p {
+    color: #ffffff;
+}
+
+h1 {
+    position: absolute;
+    color: #ffffff;
+    width: 45rem;
+    height: 3.375rem;
+    margin-top: 10%;
+    margin-left: 50%;
+    font-family: 'Paytone One', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.75rem;
+    line-height: 2.5rem;
+}
+
+#texto1 {
+    position: absolute;
+    width: 18.875rem;
+    height: 2rem;
+    margin-left: 50%;
+    margin-top: 13%;
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+}
+
+#texto2 {
+    position: absolute;
+    width: 18.875rem;
+    height: 2rem;
+    margin-left: 77.6%;
+    margin-top: 13%;
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.5rem; 
+    font-style: italic;
+}
+
+#email {
+    position: absolute;
+    width: 6.25rem;
+    height: 1.8125rem;
+    margin-left: 50.5%;
+    margin-top: 25%;        
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+#inputEmail {
+    position: absolute;
+    width: 44.5rem;
+    height: 4.5rem;
+    margin-left: 50%;
+    margin-top: 26.5%;
+    background: #196B18;
+    border-radius: 0.9375rem;
+    font-size: 1.875rem;
+    color: #ffffff;
+}
+
+#senha {
+    position: absolute;
+    width: 6.25rem;
+    height: 1.8125rem;
+    margin-left: 50.5%;
+    margin-top: 35%;        
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+#inputSenha {
+    position: absolute;
+    width: 44.5rem;
+    height: 4.5rem;
+    margin-left: 50%;
+    margin-top: 36.5%;
+    background: #196B18;
+    border-radius: 0.9375rem;
+    font-size: 1.875rem;
+    color: #ffffff;
+}
+
+#inputEnviar {
+    position: absolute;
+    width: 20rem;
+    height: 4.5rem;
+    margin-left: 50%;
+    margin-top: 45%;
+    background: #196B18;
+    border-radius: 0.9375rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+#texto3 {
+    position: absolute;
+    width: 6.1875rem;
+    height: 2rem;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.975rem;
+    line-height: 2.5rem;
+    margin-top: 64%;
+    margin-left: 77.6%;
+}
+
+#whats {
+    position: absolute;
+    width: 7rem;
+    margin-top: 63.5%;
+    margin-left: 82%;
+}
+
+#mensagem {
+    position: absolute;
+    width: 7rem;
+    margin-top: 63.5%;
+    margin-left: 84%;
+}
+
+#iconeEmail {
+    position: absolute;
+    width: 7rem;
+    margin-top: 63.5%;
+    margin-left: 86%;
+}
+
+#panda {
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    margin-left: -50%
+}

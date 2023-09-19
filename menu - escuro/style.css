@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+img{
+    position: absolute;
+    width: 126px;
+    height: 65px;
+    left: 60px;
+    top: 73px;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1, li, h2, h3, p {
+    color: #ffffff;
+}
+
+h1{
+    position: absolute;
+    width: 214px;
+    height: 72px;
+    left: 263px;
+    top: 35px;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.retangulo1{
+    position: absolute;
+    width: 594px;
+    height: 0px;
+    left: 0px;
+    top: 198px;
+    border: 5px solid #ffffff;
+    transform: rotate(179.9deg);
+    font-family: 'Arimo', sans-serif;
+}
+
+
+
+.intra{
+    position: absolute;
+    width: 368px;
+    height: 32px;
+    left: 40px;
+    top: 262px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.inter{
+    position: absolute;
+    width: 368px;
+    height: 32px;
+    left: 41px;
+    top: 308px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.har{
+    position: absolute;
+    width: 368px;
+    height: 32px;
+    left: 40px;
+    top: 354px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.com{
+    position: absolute;
+    width: 201px;
+    height: 32px;
+    left: 60px;
+    top: 400px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.mutu{
+    position: absolute;
+    width: 156px;
+    height: 32px;
+    left: 60px;
+    top: 438px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.colo{
+    position: absolute;
+    width: 103px;
+    height: 32px;
+    left: 60px;
+    top: 476px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.soci{
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: 60px;
+    top: 514px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.desar{
+    position: absolute;
+    width: 368px;
+    height: 32px;
+    left: 40px;
+    top: 560px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.cani{
+    position: absolute;
+    width: 168px;
+    height: 32px;
+    left: 60px;
+    top: 598px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.para{
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    left: 60px;
+    top: 636px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.comp{
+    position: absolute;
+    width: 165px;
+    height: 32px;
+    left: 60px;
+    top: 674px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.preda{
+    position: absolute;
+    width: 157px;
+    height: 32px;
+    left: 60px;
+    top: 712px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+button{
+    
+    position: absolute;
+    width: 417px;
+    height: 112px;
+    left: 76px;
+    top: 826px;
+    background: #1F6B1D;
+    border-radius: 60px;
+    font-family: 'Paytone One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.c1{
+    padding: 58px;
+}
+
+.retangulo2{
+    position: absolute;
+    width: 1024px;
+    height: 0px;
+    left: 85px;
+    top: 440px;
+    border: 5px solid #ffffff;
+    transform: rotate(90.01deg);
+}

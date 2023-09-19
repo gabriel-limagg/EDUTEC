@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 12.1875rem;
+    width: 100%;
+    background: #196B18;
+}
+
+.menu {
+    width: 7.6875rem;
+    height: 4.6875rem;
+    margin-top: 4.5rem;
+}
+
+.logo {
+    height: 10rem;
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.perfil {
+    width: 6.25rem;
+    height: 6.25rem;   
+    margin-top: 4rem;
+}
+
+.modos {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    margin-top: 4rem;
+}

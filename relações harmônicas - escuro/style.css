@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@media (min-width : 1366px) {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+h1, h2, h3, p, li {
+    color: white;
+}
+
+
+.retangulo {
+    background-color: #196B18;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    position: absolute;
+    width: 123px;
+    height: 75px;
+    left: 60px;
+    top: 40px;
+}
+
+.dinamica {
+    position: absolute;
+    width: 657px;
+    height: 150px;
+    left: 565px;
+    top: 2px;
+
+}
+
+.usuario {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1600px;
+    top: 28px;
+}
+
+.diaEnoite {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1750px;
+    top: 40px;
+}
+
+h1 {
+    margin-top: 8rem;
+    margin-left: 5rem;
+    display: flex;
+    width: 115rem;
+    height: 2.375rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Paytone One;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+
+h2.oq {
+    margin-top: 5rem;
+    margin-right: 4rem;
+    width: 900px;
+    height: 60px;
+    text-align: center;
+    font-family: Paytone One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+p.harmonica {
+    margin-left: 23rem;
+    width: 80.625rem;
+    height: 12.5625rem;
+    text-align: justify;
+    font-family: Ruda;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; 
+}
+
+#exemplos {
+    display: flex;
+}
+
+#tubarao {
+    margin-left: 23rem;
+}
+
+img.tubarao {
+    width: 60rem;
+    height: 23rem;
+    border-radius: 20px;
+    margin-left: 10rem;
+}
+
+.tubarao_legenda {
+    display: flex;
+    align-items: center;
+    margin-left: 28rem;
+    width: 25rem;
+    height: 1.03444rem;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arimo;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; 
+    text-decoration-line: underline;
+    margin-top: 1rem;
+}
+
+h2.exemploHarmonica {
+    width: 25.3125rem;
+    height: 4.6875rem;
+    text-align: justify;
+    font-family: Ruda;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; 
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+
+li.harmonicas1 {
+    width: 25.625rem;
+    height: 1.8125rem;
+    text-align: justify;
+    font-family: Ruda;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+li.harmonicas2 {
+    width: 25.5625rem;
+    height: 2.1875rem;
+    text-align: justify;
+    font-family: Ruda;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; 
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+li.harmonicas3 {
+    width: 25.625rem;
+    height: 1.8125rem;
+    text-align: justify;
+    font-family: Ruda;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+li.harmonicas4 {
+    width: 25.625rem;
+    height: 1.8125rem;
+    text-align: justify;
+    font-family: Ruda;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-left: 2rem;
+}
+
+.exemplo_jacare {
+    display: flex;
+    margin-left: 23rem;
+}
+
+img.jacare {
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    margin-right: 0;
+    margin-top: 10rem;
+    margin-left: 30rem;
+}
+
+h3.jacare_legenda {
+    display: flex;
+    margin-left: 96rem;
+    width: 15rem;
+    height: 1.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arimo;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; 
+    text-decoration-line: underline;
+    margin-top: 1rem;
+}
+}

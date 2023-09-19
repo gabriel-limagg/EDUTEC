@@ -1,0 +1,334 @@
+@media (min-width : 1366px) {
+  @import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+
+
+  html{
+  font-family: 'Ruda', sans-serif;
+  font-size: 20px;
+  }
+
+  body {
+      background-image: url('./imagens/fundo_do_quiz.png');;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    
+    }
+
+
+    
+    
+    #titulo {
+      text-align: center;
+      margin-top: -180px;
+    }
+
+    #pergunta {
+      background-color: #F3F4F0;
+      padding: 40px;
+      margin-left: 100px;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      position: relative;
+      margin-top: -125px;
+    }
+
+  .resposta {
+    background-color: #F3F4F0;
+    margin-left: 100px;
+    padding: 20px;
+    margin-bottom: 10px;
+    max-width: 640px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+    .correct {
+      background-color: green;
+      color: white;
+    }
+    
+    .incorrect {
+      background-color: red;
+      color: white;
+    }
+    
+
+    #retangulo-superior {
+      background-color: #196B18;
+      height: 140px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 0px;
+      position: absolute;
+      top: 0;
+    }
+
+    #retangulo-superior img {
+      height: 500px;
+      width: 500px;
+      left: 352px;
+      top: 33px;
+      border-radius: 0px;
+    }
+
+    
+    .retangulo_preto {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 140px;
+      background: rgba(0, 0, 0, 0.7);
+      opacity: 0.8; 
+      z-index: 0; 
+    }
+
+
+    .menu{
+      position: absolute;
+      width: 123px;
+      height: 75px;
+      left: 60px;
+      top: 40px;
+    
+    }
+    
+    
+    
+    .usuario{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      left: 1600px;
+      top: 28px;
+    }
+    
+    
+    .diaEnoite{
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      left: 1750px;
+      top:40px;
+    }
+    
+    
+    .rectangle45-rectangle45 {
+      width: 100%;
+      height: 260px;
+      opacity: 0.80;
+      margin-top: -130px;
+      left: 0px;
+      position: absolute;
+    }
+    
+    
+    .pginadoresultadodoquiz-modo-claroerrado-homepageclaro {
+      top: 0px;
+      left: 0px;
+      width: 1440px;
+      height: 1024px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      margin-left: 400px;
+      margin-top: -100px;
+      
+    }
+
+    .pginadoresultadodoquiz-modo-claroerrado-homepageclaro img{
+      margin-top: 15px;
+    }
+    
+    .pginadoresultadodoquiz-modo-claroerrado-mail {
+      top: 961px;
+      left: 1311px;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+    }
+    .pginadoresultadodoquiz-modo-claroerrado-phone {
+      top: 961px;
+      left: 1353px;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+    }
+    .pginadoresultadodoquiz-modo-claroerrado-send {
+      top: 961px;
+      left: 1395px;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+    }
+    .pginadoresultadodoquiz-modo-claroerrado-text {
+      top: 968px;
+      left: 1194px;
+      color: rgba(255, 255, 255, 1);
+      width: 99px;
+      height: auto;
+      position: absolute;
+      font-size: 15px;
+      font-style: Regular;
+      text-align: right;
+      font-family: Arimo;
+      font-weight: 400;
+      line-height: 40px;
+      font-stretch: normal;
+      text-decoration: none;
+    }
+    
+
+    .textos{
+      margin-top: 350px;
+      padding: 50px;
+      
+    }
+
+  
+  
+
+
+  
+
+    .acertos{
+      padding-top: 190px;
+      padding-left: 85px;
+      font-size: 1.2rem;
+    }
+
+    .questao{
+      font-size: 40px;
+      padding-left: 55px;
+      position: absolute;
+    }
+
+    .img {
+      position: absolute;
+      left: 1250px;
+      top: 350px;
+      z-index: 2;
+      margin-top: 133px;
+  }
+
+    .img2{
+      position: absolute;
+      left: 1250px;
+      top: 374px;
+      z-index: 2;
+      margin-top: 170px;
+    }
+
+    .progresso1{
+      z-index: 2;
+      position: absolute;
+      margin-left: 1240px;
+      font-size: 1.2rem;
+      margin-top: -540px;
+    }
+
+    .avancar{
+      z-index: 2;
+      position: absolute;
+      margin-left: 1340px;
+      font-size: 20px;
+      margin-top: -350px;
+      cursor: pointer;
+    }
+
+
+
+  #enviarButton{
+    color: white;
+    font-family: sans-serif;
+    padding: 30px;
+    margin-left: 16px;
+    border-radius: 40px;
+    margin-top: 8.3rem;
+    width: 90%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid black;
+  }
+
+
+
+
+
+  .progresso {
+    position: absolute;
+    width: 346px;
+    height: 600px;
+    right: 380px;
+    top: 265px;
+    background: #F3F4F0;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    
+  }
+
+  /* Estilo quando o botão está habilitado */
+  .botao-habilitado {
+    background-color: #196B18; /* Cor verde */
+    color: white;
+    padding: 30px;
+    margin-left: 16px;
+    border-radius: 40px;
+    margin-top: 9.5rem;
+    width: 90%;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid black; /* Bordas pretas */
+    transition: transform 0.3s; /* Efeito de transformação para hover */
+  }
+
+  /* Estilo do botão ENVIAR ao passar o mouse (hover) apenas quando habilitado */
+  .botao-habilitado:hover {
+    transform: scale(1.1); /* Efeito de escala no hover */
+  }
+
+  /* Estilo quando o botão está desabilitado */
+  .botao-desabilitado {
+    background-color: gray; /* Cor cinza */
+    color: white;
+    padding: 30px;
+    margin-left: 16px;
+    border-radius: 40px;
+    margin-top: 9.5rem;
+    width: 90%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid black; /* Bordas pretas */
+  }
+
+
+
+
+
+
+
+
+
+}
+
+
+
